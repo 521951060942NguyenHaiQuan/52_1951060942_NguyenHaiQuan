@@ -1,0 +1,762 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youtobe.com</title>
+    <link rel="shortcut icon" href="https://www.youtube.com/s/desktop/6bbff1da/img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+<body>
+    <!--Phần header-->
+    <div id="header">
+        <!--phần chứa logo-->
+        <div class="h-left">
+            <span class="material-icons">
+                menu
+            </span>
+            <a href="index.html"><img src="images/logo.png" alt="logo"></a>
+
+
+        </div>
+
+        <!--Tìm kiếm-->
+
+        <div class="h-search">
+            <form action="">
+                <input type="text" placeholder="Tìm kiếm" />
+                <button>
+                    <span style="border: aliceblue;border-radius: 0.75rem;" class="material-icons">
+                        search
+                    </span>
+                </button>
+            </form>
+            <span class="material-icons">
+                mic
+            </span>
+        </div>
+
+        <!--Phần chứa thông tin tài khoản-->
+        <div class="h-right">
+            <span class="material-icons">
+                apps
+            </span>
+            <span class="material-icons">
+                more_vert
+            </span>
+            <button>
+                Đăng nhập
+                <span class="material-icons">
+                    account_circle
+                </span>
+            </button>
+        </div>
+
+    </div>
+
+    <!--Phần sidebar-->
+
+    <div id="sidebar">
+        <!--Phần 1-->
+        <div class="sidebar_categoryes">
+            <div class="sidebar_category">
+                <span class="material-icons">
+                    home
+                </span>
+                <span>Trang chủ</span>
+            </div>
+
+            <div class="sidebar_category">
+                <span class="material-icons">
+                    explore
+                </span>
+                <span>Khám phá</span>
+            </div>
+
+            <div class="sidebar_category">
+                <span class="material-icons">
+                    subscriptions
+                </span>
+                <span>Kênh đăng ký</span>
+            </div>
+        </div>
+
+        <hr>
+        <!--phan 2-->
+
+        <div class="sidebar_categoryes">
+            <div class="sidebar_category">
+                <span class="material-icons">
+                    video_library
+                </span>
+                <span>Thư viện</span>
+            </div>
+
+            <div class="sidebar_category">
+                <span class="material-icons">
+                    history
+                </span>
+                <span>Video Đã Xem</span>
+            </div>
+
+            <div class="sidebar_category">
+                <span class="material-icons">
+                    smart_display
+                </span>
+                <span>Video của bạn</span>
+            </div>
+
+            <div class="sidebar_category">
+                <span class="material-icons">
+                    query_builder
+                </span>
+                <span>Xem sau</span>
+            </div>
+
+            <div class="sidebar_category">
+                <span class="material-icons">
+                    thumb_up
+                </span>
+                <span>Video đã thích</span>
+            </div>
+            <div class="sidebar_category">
+                <span class="material-icons">
+                    expand_more
+                </span>
+                <span>Thêm</span>
+
+            </div>
+
+        </div>
+
+        <hr>
+
+        <div style="margin-left: 15px;" class="sidebar_categoryes">
+            <h4>Kênh đăng ký</h4>
+            <div class="subscribe">
+                <img src="images/f8.jpg" alt="channel ">
+                <a href="#">F8 offical</a>
+
+            </div>
+
+            <div class="subscribe">
+                <img src="images/blackpink.jpg" alt="">
+                <a href="">Blackpink</a>
+
+            </div>
+
+            <div class="subscribe">
+                <img src="images/hand.jpg" alt="">
+                <a href="">Nhạc lofi</a>
+
+            </div>
+
+            <div class="subscribe">
+                <img src="images/nguyen.jpg" alt="">
+                <a href="">Tralveling</a>
+
+            </div>
+
+            <div style="margin-top: 12px;" class="subscribe">
+                <span class="material-icons">
+                    expand_more
+                </span>
+                <span>Hiển thị thêm thư mục</span>
+
+            </div>
+        </div>
+
+        <hr>
+
+        <div style="margin-left: 15px;" class="sidebar_categoryes">
+            <h4>Dịch vụ khác của Youtube</h4>
+            <div class="sidebar_category">
+                <span class="material-icons">
+                    sports_esports
+                </span>
+                <span>Trò chơi</span>
+            </div>
+
+            <div class="sidebar_category">
+                <span class="material-icons">
+                    sensors
+                </span>
+                <span>Trực tiếp</span>
+            </div>
+
+            <div class="sidebar_category">
+                <span class="material-icons">
+                    emoji_events
+                </span>
+                <span>Thể thao</span>
+            </div>
+        </div>
+        <hr>
+        <div class="sidebar_categoryes">
+            <div class="sidebar_category">
+                <span class="material-icons">
+                    settings
+                </span>
+                <span>cài đặt</span>
+            </div>
+
+            <div class="sidebar_category">
+                <span class="material-icons">
+                    outlined_flag
+                </span>
+                <span>Lịch sử báo cáo</span>
+            </div>
+
+            <div class="sidebar_category">
+                <span class="material-icons">
+                    help
+                </span>
+                <span>Trợ giúp</span>
+            </div>
+
+            <div class="sidebar_category">
+                <span class="material-icons">
+                    feedback
+                </span>
+                <span>Gửi phản hồi</span>
+            </div>
+
+            <div class="sidebar_category">
+
+                <span></span>
+            </div>
+        </div>
+
+        <hr>
+
+        <div class="sidebar_category">
+            <p>
+                Giới thiệuBáo chí
+                <br>
+                Bản quyền
+                <br>
+                Liên hệ với chúng tôi
+                <br>
+                Người sáng tạo
+                <br>
+                Quảng cáoNhà phát triển
+                <br>
+                Điều khoảnQuyền riêng tư
+                <br>
+                Chính sách và an toànCách YouTube hoạt động
+                <br>
+                Thử các tính năng mới
+            </p>
+        </div>
+
+
+
+    </div>
+
+    <!--Phần main-->
+<div>
+
+
+    <div id="main">
+        <!--Phần button-->
+        <div class="list">
+            <button class="active">
+                <a href="">Tất cả</a>
+            </button>
+            <button class="active">
+                <a href="">Danh sách kết hợp</a>
+            </button>
+            <button class="active">
+                <a href="">Âm nhạc</a>
+            </button>
+            <button class="active">
+                <a href="">Toán học</a>
+            </button>
+            <button class="active">
+                <a href="">Trò chơi</a>
+            </button>
+            <button class="active">
+                <a href="">Hài kịch ngắn</a>
+            </button>
+            <button class="active">
+                <a href="">Đọc rap</a>
+            </button>
+            <button class="active">
+                <a href="">Trực tiếp</a>
+            </button>
+            <button class="active">
+                <a href="">Bóng đá</a>
+            </button>
+            <button class="active">
+                <a href="">Nấu ăn</a>
+            </button>
+            <button class="active">
+                <a href="">Đã xem</a>
+            </button>
+            <button class="active">
+                <a href="">Đã xem gần đây</a>
+            </button>
+            <button class="active">
+                <a href="">Đề xuất mới</a>
+            </button>
+        </div>
+        <!--Phần danh sách bài nhạc-->
+        <div class="list">
+
+            <div style="width: 400px;" id="divide">
+
+                <div id="content">
+                    <div class="content-left">
+
+                        <img style="border-radius: 0.25rem;" id="img" class="style-scope yt-img-shadow" alt=""
+                            width="350px"
+                            src="https://i.ytimg.com/vi/Vdm6i1m4tDE/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&amp;rs=AOn4CLCRWwZ0JhZuiyRbVOwcbawkAfLJQw">
+
+                        <div class="details">
+                            <li class="intals">
+                                <img id="img" class="style-scope yt-img-shadow" alt="" width="30px"
+                                    src="https://yt3.ggpht.com/nlDWgA4uOTybHKrOZ6wC-Vf2m1mEg9NFJqfFkDMhRVTOZVmFncgLyMAmHU2DXqdPmIOTysDi=s88-c-k-c0x00ffffff-no-rj">
+
+                                <a style="font-size: 12px;" id="video-title-link"
+                                    class="yt-simple-endpoint style-scope ytd-rich-grid-media"
+                                    aria-label="Bước Qua Nhau / Vũ. (Live Session trên tàu Cát Linh - Hà Đông) của Vũ Official 6 ngày trước 5 phút, 3 giây 3.862.678 lượt xem Người xem của F8 Official cũng xem kênh này"
+                                    title="Bước Qua Nhau / Vũ. (Live Session trên tàu Cát Linh - Hà Đông)"
+                                    href="/watch?v=Vdm6i1m4tDE">Bước Qua Nhau / Vũ. </br>(Live Session trên tàu Cát Linh
+                                    -
+                                    Hà Đông)</a>
+
+                            </li>
+                            <div style="font-size: 12px;">
+                                <li class=" metaside">
+                                    <a style="font-size: 12px;" href="#">Vũ Official</a>
+                                    <span>3,8 triệu lượt xem . 6 ngày trước</span>
+                                </li>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <div style="width: 400px;padding: 0;" id="divide">
+
+                <div id="content">
+                    <div class="content-left">
+
+                        <img style="border-radius: 0.25rem;" id="img" class="style-scope yt-img-shadow" alt=""
+                            width="350px"
+                            src="https://i.ytimg.com/vi/Vdm6i1m4tDE/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&amp;rs=AOn4CLCRWwZ0JhZuiyRbVOwcbawkAfLJQw">
+
+                        <div class="details">
+                            <li class="intals">
+                                <img id="img" class="style-scope yt-img-shadow" alt="" width="30px"
+                                    src="https://yt3.ggpht.com/nlDWgA4uOTybHKrOZ6wC-Vf2m1mEg9NFJqfFkDMhRVTOZVmFncgLyMAmHU2DXqdPmIOTysDi=s88-c-k-c0x00ffffff-no-rj">
+
+                                <a style="font-size: 12px;" id="video-title-link"
+                                    class="yt-simple-endpoint style-scope ytd-rich-grid-media"
+                                    aria-label="Bước Qua Nhau / Vũ. (Live Session trên tàu Cát Linh - Hà Đông) của Vũ Official 6 ngày trước 5 phút, 3 giây 3.862.678 lượt xem Người xem của F8 Official cũng xem kênh này"
+                                    title="Bước Qua Nhau / Vũ. (Live Session trên tàu Cát Linh - Hà Đông)"
+                                    href="/watch?v=Vdm6i1m4tDE">Bước Qua Nhau / Vũ. </br>(Live Session trên tàu Cát Linh
+                                    -
+                                    Hà Đông)</a>
+
+                            </li>
+                            <div style="font-size: 12px;">
+                                <li class=" metaside">
+                                    <a style="font-size: 12px;" href="#">Vũ Official</a>
+                                    <span>3,8 triệu lượt xem . 6 ngày trước</span>
+                                </li>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div style="width: 400px;padding: 0;" id="divide">
+
+                <div id="content">
+                    <div class="content-left">
+
+                        <img style="border-radius: 0.25rem;" id="img" class="style-scope yt-img-shadow" alt=""
+                            width="350px"
+                            src="https://i.ytimg.com/vi/Vdm6i1m4tDE/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&amp;rs=AOn4CLCRWwZ0JhZuiyRbVOwcbawkAfLJQw">
+
+                        <div class="details">
+                            <li class="intals">
+                                <img id="img" class="style-scope yt-img-shadow" alt="" width="30px"
+                                    src="https://yt3.ggpht.com/nlDWgA4uOTybHKrOZ6wC-Vf2m1mEg9NFJqfFkDMhRVTOZVmFncgLyMAmHU2DXqdPmIOTysDi=s88-c-k-c0x00ffffff-no-rj">
+
+                                <a style="font-size: 12px;" id="video-title-link"
+                                    class="yt-simple-endpoint style-scope ytd-rich-grid-media"
+                                    aria-label="Bước Qua Nhau / Vũ. (Live Session trên tàu Cát Linh - Hà Đông) của Vũ Official 6 ngày trước 5 phút, 3 giây 3.862.678 lượt xem Người xem của F8 Official cũng xem kênh này"
+                                    title="Bước Qua Nhau / Vũ. (Live Session trên tàu Cát Linh - Hà Đông)"
+                                    href="/watch?v=Vdm6i1m4tDE">Bước Qua Nhau / Vũ. </br>(Live Session trên tàu Cát Linh
+                                    -
+                                    Hà Đông)</a>
+
+                            </li>
+                            <div style="font-size: 12px;">
+                                <li class=" metaside">
+                                    <a style="font-size: 12px;" href="#">Vũ Official</a>
+                                    <span>3,8 triệu lượt xem . 6 ngày trước</span>
+                                </li>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <!--kết thức-->
+
+        <div class="list">
+
+            <div style="width: 400px;" id="divide">
+
+                <div id="content">
+                    <div class="content-left">
+
+                        <img style="border-radius: 0.25rem;" id="img" class="style-scope yt-img-shadow" alt=""
+                            width="350px"
+                            src="https://i.ytimg.com/vi/Vdm6i1m4tDE/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&amp;rs=AOn4CLCRWwZ0JhZuiyRbVOwcbawkAfLJQw">
+
+                        <div class="details">
+                            <li class="intals">
+                                <img id="img" class="style-scope yt-img-shadow" alt="" width="30px"
+                                    src="https://yt3.ggpht.com/nlDWgA4uOTybHKrOZ6wC-Vf2m1mEg9NFJqfFkDMhRVTOZVmFncgLyMAmHU2DXqdPmIOTysDi=s88-c-k-c0x00ffffff-no-rj">
+
+                                <a style="font-size: 12px;" id="video-title-link"
+                                    class="yt-simple-endpoint style-scope ytd-rich-grid-media"
+                                    aria-label="Bước Qua Nhau / Vũ. (Live Session trên tàu Cát Linh - Hà Đông) của Vũ Official 6 ngày trước 5 phút, 3 giây 3.862.678 lượt xem Người xem của F8 Official cũng xem kênh này"
+                                    title="Bước Qua Nhau / Vũ. (Live Session trên tàu Cát Linh - Hà Đông)"
+                                    href="/watch?v=Vdm6i1m4tDE">Bước Qua Nhau / Vũ. </br>(Live Session trên tàu Cát Linh
+                                    -
+                                    Hà Đông)</a>
+
+                            </li>
+                            <div style="font-size: 12px;">
+                                <li class=" metaside">
+                                    <a style="font-size: 12px;" href="#">Vũ Official</a>
+                                    <span>3,8 triệu lượt xem . 6 ngày trước</span>
+                                </li>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <div style="width: 400px;padding: 0;" id="divide">
+
+                <div id="content">
+                    <div class="content-left">
+
+                        <img style="border-radius: 0.25rem;" id="img" class="style-scope yt-img-shadow" alt=""
+                            width="350px"
+                            src="https://i.ytimg.com/vi/Vdm6i1m4tDE/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&amp;rs=AOn4CLCRWwZ0JhZuiyRbVOwcbawkAfLJQw">
+
+                        <div class="details">
+                            <li class="intals">
+                                <img id="img" class="style-scope yt-img-shadow" alt="" width="30px"
+                                    src="https://yt3.ggpht.com/nlDWgA4uOTybHKrOZ6wC-Vf2m1mEg9NFJqfFkDMhRVTOZVmFncgLyMAmHU2DXqdPmIOTysDi=s88-c-k-c0x00ffffff-no-rj">
+
+                                <a style="font-size: 12px;" id="video-title-link"
+                                    class="yt-simple-endpoint style-scope ytd-rich-grid-media"
+                                    aria-label="Bước Qua Nhau / Vũ. (Live Session trên tàu Cát Linh - Hà Đông) của Vũ Official 6 ngày trước 5 phút, 3 giây 3.862.678 lượt xem Người xem của F8 Official cũng xem kênh này"
+                                    title="Bước Qua Nhau / Vũ. (Live Session trên tàu Cát Linh - Hà Đông)"
+                                    href="/watch?v=Vdm6i1m4tDE">Bước Qua Nhau / Vũ. </br>(Live Session trên tàu Cát Linh
+                                    -
+                                    Hà Đông)</a>
+
+                            </li>
+                            <div style="font-size: 12px;">
+                                <li class=" metaside">
+                                    <a style="font-size: 12px;" href="#">Vũ Official</a>
+                                    <span>3,8 triệu lượt xem . 6 ngày trước</span>
+                                </li>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div style="width: 400px;padding: 0;" id="divide">
+
+                <div id="content">
+                    <div class="content-left">
+
+                        <img style="border-radius: 0.25rem;" id="img" class="style-scope yt-img-shadow" alt=""
+                            width="350px"
+                            src="https://i.ytimg.com/vi/Vdm6i1m4tDE/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&amp;rs=AOn4CLCRWwZ0JhZuiyRbVOwcbawkAfLJQw">
+
+                        <div class="details">
+                            <li class="intals">
+                                <img id="img" class="style-scope yt-img-shadow" alt="" width="30px"
+                                    src="https://yt3.ggpht.com/nlDWgA4uOTybHKrOZ6wC-Vf2m1mEg9NFJqfFkDMhRVTOZVmFncgLyMAmHU2DXqdPmIOTysDi=s88-c-k-c0x00ffffff-no-rj">
+
+                                <a style="font-size: 12px;" id="video-title-link"
+                                    class="yt-simple-endpoint style-scope ytd-rich-grid-media"
+                                    aria-label="Bước Qua Nhau / Vũ. (Live Session trên tàu Cát Linh - Hà Đông) của Vũ Official 6 ngày trước 5 phút, 3 giây 3.862.678 lượt xem Người xem của F8 Official cũng xem kênh này"
+                                    title="Bước Qua Nhau / Vũ. (Live Session trên tàu Cát Linh - Hà Đông)"
+                                    href="/watch?v=Vdm6i1m4tDE">Bước Qua Nhau / Vũ. </br>(Live Session trên tàu Cát Linh
+                                    -
+                                    Hà Đông)</a>
+
+                            </li>
+                            <div style="font-size: 12px;">
+                                <li class=" metaside">
+                                    <a style="font-size: 12px;" href="#">Vũ Official</a>
+                                    <span>3,8 triệu lượt xem . 6 ngày trước</span>
+                                </li>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <!--kết thúc-->
+        <div class="list">
+
+            <div style="width: 400px;" id="divide">
+
+                <div id="content">
+                    <div class="content-left">
+
+                        <img style="border-radius: 0.25rem;" id="img" class="style-scope yt-img-shadow" alt=""
+                            width="350px"
+                            src="https://i.ytimg.com/vi/Vdm6i1m4tDE/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&amp;rs=AOn4CLCRWwZ0JhZuiyRbVOwcbawkAfLJQw">
+
+                        <div class="details">
+                            <li class="intals">
+                                <img id="img" class="style-scope yt-img-shadow" alt="" width="30px"
+                                    src="https://yt3.ggpht.com/nlDWgA4uOTybHKrOZ6wC-Vf2m1mEg9NFJqfFkDMhRVTOZVmFncgLyMAmHU2DXqdPmIOTysDi=s88-c-k-c0x00ffffff-no-rj">
+
+                                <a style="font-size: 12px;" id="video-title-link"
+                                    class="yt-simple-endpoint style-scope ytd-rich-grid-media"
+                                    aria-label="Bước Qua Nhau / Vũ. (Live Session trên tàu Cát Linh - Hà Đông) của Vũ Official 6 ngày trước 5 phút, 3 giây 3.862.678 lượt xem Người xem của F8 Official cũng xem kênh này"
+                                    title="Bước Qua Nhau / Vũ. (Live Session trên tàu Cát Linh - Hà Đông)"
+                                    href="/watch?v=Vdm6i1m4tDE">Bước Qua Nhau / Vũ. </br>(Live Session trên tàu Cát Linh
+                                    -
+                                    Hà Đông)</a>
+
+                            </li>
+                            <div style="font-size: 12px;">
+                                <li class=" metaside">
+                                    <a style="font-size: 12px;" href="#">Vũ Official</a>
+                                    <span>3,8 triệu lượt xem . 6 ngày trước</span>
+                                </li>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <div style="width: 400px;padding: 0;" id="divide">
+
+                <div id="content">
+                    <div class="content-left">
+
+                        <img style="border-radius: 0.25rem;" id="img" class="style-scope yt-img-shadow" alt=""
+                            width="350px"
+                            src="https://i.ytimg.com/vi/Vdm6i1m4tDE/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&amp;rs=AOn4CLCRWwZ0JhZuiyRbVOwcbawkAfLJQw">
+
+                        <div class="details">
+                            <li class="intals">
+                                <img id="img" class="style-scope yt-img-shadow" alt="" width="30px"
+                                    src="https://yt3.ggpht.com/nlDWgA4uOTybHKrOZ6wC-Vf2m1mEg9NFJqfFkDMhRVTOZVmFncgLyMAmHU2DXqdPmIOTysDi=s88-c-k-c0x00ffffff-no-rj">
+
+                                <a style="font-size: 12px;" id="video-title-link"
+                                    class="yt-simple-endpoint style-scope ytd-rich-grid-media"
+                                    aria-label="Bước Qua Nhau / Vũ. (Live Session trên tàu Cát Linh - Hà Đông) của Vũ Official 6 ngày trước 5 phút, 3 giây 3.862.678 lượt xem Người xem của F8 Official cũng xem kênh này"
+                                    title="Bước Qua Nhau / Vũ. (Live Session trên tàu Cát Linh - Hà Đông)"
+                                    href="/watch?v=Vdm6i1m4tDE">Bước Qua Nhau / Vũ. </br>(Live Session trên tàu Cát Linh
+                                    -
+                                    Hà Đông)</a>
+
+                            </li>
+                            <div style="font-size: 12px;">
+                                <li class=" metaside">
+                                    <a style="font-size: 12px;" href="#">Vũ Official</a>
+                                    <span>3,8 triệu lượt xem . 6 ngày trước</span>
+                                </li>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div style="width: 400px;padding: 0;" id="divide">
+
+                <div id="content">
+                    <div class="content-left">
+
+                        <img style="border-radius: 0.25rem;" id="img" class="style-scope yt-img-shadow" alt=""
+                            width="350px"
+                            src="https://i.ytimg.com/vi/Vdm6i1m4tDE/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&amp;rs=AOn4CLCRWwZ0JhZuiyRbVOwcbawkAfLJQw">
+
+                        <div class="details">
+                            <li class="intals">
+                                <img id="img" class="style-scope yt-img-shadow" alt="" width="30px"
+                                    src="https://yt3.ggpht.com/nlDWgA4uOTybHKrOZ6wC-Vf2m1mEg9NFJqfFkDMhRVTOZVmFncgLyMAmHU2DXqdPmIOTysDi=s88-c-k-c0x00ffffff-no-rj">
+
+                                <a style="font-size: 12px;" id="video-title-link"
+                                    class="yt-simple-endpoint style-scope ytd-rich-grid-media"
+                                    aria-label="Bước Qua Nhau / Vũ. (Live Session trên tàu Cát Linh - Hà Đông) của Vũ Official 6 ngày trước 5 phút, 3 giây 3.862.678 lượt xem Người xem của F8 Official cũng xem kênh này"
+                                    title="Bước Qua Nhau / Vũ. (Live Session trên tàu Cát Linh - Hà Đông)"
+                                    href="/watch?v=Vdm6i1m4tDE">Bước Qua Nhau / Vũ. </br>(Live Session trên tàu Cát Linh
+                                    -
+                                    Hà Đông)</a>
+
+                            </li>
+                            <div style="font-size: 12px;">
+                                <li class=" metaside">
+                                    <a style="font-size: 12px;" href="#">Vũ Official</a>
+                                    <span>3,8 triệu lượt xem . 6 ngày trước</span>
+                                </li>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <!--Kết thúc-->
+        <div class="list">
+
+            <div style="width: 400px;" id="divide">
+
+                <div id="content">
+                    <div class="content-left">
+
+                        <img style="border-radius: 0.25rem;" id="img" class="style-scope yt-img-shadow" alt=""
+                            width="350px"
+                            src="https://i.ytimg.com/vi/Vdm6i1m4tDE/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&amp;rs=AOn4CLCRWwZ0JhZuiyRbVOwcbawkAfLJQw">
+
+                        <div class="details">
+                            <li class="intals">
+                                <img id="img" class="style-scope yt-img-shadow" alt="" width="30px"
+                                    src="https://yt3.ggpht.com/nlDWgA4uOTybHKrOZ6wC-Vf2m1mEg9NFJqfFkDMhRVTOZVmFncgLyMAmHU2DXqdPmIOTysDi=s88-c-k-c0x00ffffff-no-rj">
+
+                                <a style="font-size: 12px;" id="video-title-link"
+                                    class="yt-simple-endpoint style-scope ytd-rich-grid-media"
+                                    aria-label="Bước Qua Nhau / Vũ. (Live Session trên tàu Cát Linh - Hà Đông) của Vũ Official 6 ngày trước 5 phút, 3 giây 3.862.678 lượt xem Người xem của F8 Official cũng xem kênh này"
+                                    title="Bước Qua Nhau / Vũ. (Live Session trên tàu Cát Linh - Hà Đông)"
+                                    href="/watch?v=Vdm6i1m4tDE">Bước Qua Nhau / Vũ. </br>(Live Session trên tàu Cát Linh
+                                    -
+                                    Hà Đông)</a>
+
+                            </li>
+                            <div style="font-size: 12px;">
+                                <li class=" metaside">
+                                    <a style="font-size: 12px;" href="#">Vũ Official</a>
+                                    <span>3,8 triệu lượt xem . 6 ngày trước</span>
+                                </li>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <div style="width: 400px;padding: 0;" id="divide">
+
+                <div id="content">
+                    <div class="content-left">
+
+                        <img style="border-radius: 0.25rem;" id="img" class="style-scope yt-img-shadow" alt=""
+                            width="350px"
+                            src="https://i.ytimg.com/vi/Vdm6i1m4tDE/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&amp;rs=AOn4CLCRWwZ0JhZuiyRbVOwcbawkAfLJQw">
+
+                        <div class="details">
+                            <li class="intals">
+                                <img id="img" class="style-scope yt-img-shadow" alt="" width="30px"
+                                    src="https://yt3.ggpht.com/nlDWgA4uOTybHKrOZ6wC-Vf2m1mEg9NFJqfFkDMhRVTOZVmFncgLyMAmHU2DXqdPmIOTysDi=s88-c-k-c0x00ffffff-no-rj">
+
+                                <a style="font-size: 12px;" id="video-title-link"
+                                    class="yt-simple-endpoint style-scope ytd-rich-grid-media"
+                                    aria-label="Bước Qua Nhau / Vũ. (Live Session trên tàu Cát Linh - Hà Đông) của Vũ Official 6 ngày trước 5 phút, 3 giây 3.862.678 lượt xem Người xem của F8 Official cũng xem kênh này"
+                                    title="Bước Qua Nhau / Vũ. (Live Session trên tàu Cát Linh - Hà Đông)"
+                                    href="/watch?v=Vdm6i1m4tDE">Bước Qua Nhau / Vũ. </br>(Live Session trên tàu Cát Linh
+                                    -
+                                    Hà Đông)</a>
+
+                            </li>
+                            <div style="font-size: 12px;">
+                                <li class=" metaside">
+                                    <a style="font-size: 12px;" href="#">Vũ Official</a>
+                                    <span>3,8 triệu lượt xem . 6 ngày trước</span>
+                                </li>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div style="width: 400px;padding: 0;" id="divide">
+
+                <div id="content">
+                    <div class="content-left">
+
+                        <img style="border-radius: 0.25rem;" id="img" class="style-scope yt-img-shadow" alt=""
+                            width="350px"
+                            src="https://i.ytimg.com/vi/Vdm6i1m4tDE/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&amp;rs=AOn4CLCRWwZ0JhZuiyRbVOwcbawkAfLJQw">
+
+                        <div class="details">
+                            <li class="intals">
+                                <img id="img" class="style-scope yt-img-shadow" alt="" width="30px"
+                                    src="https://yt3.ggpht.com/nlDWgA4uOTybHKrOZ6wC-Vf2m1mEg9NFJqfFkDMhRVTOZVmFncgLyMAmHU2DXqdPmIOTysDi=s88-c-k-c0x00ffffff-no-rj">
+
+                                <a style="font-size: 12px;" id="video-title-link"
+                                    class="yt-simple-endpoint style-scope ytd-rich-grid-media"
+                                    aria-label="Bước Qua Nhau / Vũ. (Live Session trên tàu Cát Linh - Hà Đông) của Vũ Official 6 ngày trước 5 phút, 3 giây 3.862.678 lượt xem Người xem của F8 Official cũng xem kênh này"
+                                    title="Bước Qua Nhau / Vũ. (Live Session trên tàu Cát Linh - Hà Đông)"
+                                    href="/watch?v=Vdm6i1m4tDE">Bước Qua Nhau / Vũ. </br>(Live Session trên tàu Cát Linh
+                                    -
+                                    Hà Đông)</a>
+
+                            </li>
+                            <div style="font-size: 12px;">
+                                <li class=" metaside">
+                                    <a style="font-size: 12px;" href="#">Vũ Official</a>
+                                    <span>3,8 triệu lượt xem . 6 ngày trước</span>
+                                </li>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
